@@ -1,7 +1,7 @@
 import os
 from google.cloud import storage
 
-os.chdir('/home/kaustav/Desktop/readingdata')
+# os.chdir('/home/kaustav/Desktop/readingdata')
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'kubeflow-test-335211-51a941da8bd8.json'
 storageclient = storage.Client()
@@ -27,10 +27,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, \
 import pandas as pd
 
 
-STORAGE_BUCKET = 'bank-marketing-model'
-DATA_PATH = 'bank-additional-full.csv'
-LOCAL_PATH = '/home/kaustav/Desktop/readingdata'
-PROJECT_ID = 'medium-articles'
+# STORAGE_BUCKET = 'bank-marketing-model'
+# DATA_PATH = 'bank-additional-full.csv'
+# LOCAL_PATH = '/home/kaustav/Desktop/readingdata'
+# PROJECT_ID = 'medium-articles'
 
 
 if __name__ == '__main__':
@@ -61,9 +61,12 @@ if __name__ == '__main__':
                              'default 0.5)')
     parser.add_argument('--n-jobs', type=int, default=1,
                         help='Number of parallel jobs to run (int, default 1)')
+    parser.add_argument('--LOCAL_PATH', type = str, default = '/tmp',
+                        help = "path to store model outputs in local, default /tmp")
 
     # Parse arguments
     args = parser.parse_args()
+    LOCAL_PATH = args.LOCAL_PATH
 
     # Download dataset
     # subprocess.call([
@@ -141,15 +144,15 @@ if __name__ == '__main__':
     results.to_csv(os.path.join(LOCAL_PATH, 'results.csv'))
 
     # Upload model and results Dataframe to Storage
-    # subprocess.call([
-    #     'gsutil', 'cp',
-    #     # Local path of the model
-    #     os.path.join(LOCAL_PATH, 'model.joblib'),
-    #     os.path.join(args.storage_path, 'model.joblib')
-    # ])
-    # subprocess.call([
-    #     'gsutil', 'cp',
-    #     # Local path of results
-    #     os.path.join(LOCAL_PATH, 'results.csv'),
-    #     os.path.join(args.storage_path, 'results.csv')
-    # ])
+    subprocess.call([
+        'gsutil', 'cp',
+        # Local path of the model
+        os.path.join(LOCAL_PATH, 'model.joblib'),
+        os.path.join(args.storage_path, 'model.joblib')
+    ])
+    subprocess.call([
+        'gsutil', 'cp',
+        # Local path of results
+        os.path.join(LOCAL_PATH, 'results.csv'),
+        os.path.join(args.storage_path, 'results.csv')
+    ])
