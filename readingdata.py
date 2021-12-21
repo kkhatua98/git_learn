@@ -3,7 +3,7 @@ from google.cloud import storage
 
 # os.chdir('/home/kaustav/Desktop/readingdata')
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'kubeflow-test-335211-51a941da8bd8.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './kubeflow-test-335211-51a941da8bd8.json'
 storageclient = storage.Client()
 
 # print(dir(storageclient))
