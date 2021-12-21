@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kubeflow-test-335211",
+  "private_key_id": "51a941da8bd877bf32187268bf3ccbdf684a8403",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCciTapoULNfhm7\nR8WhbaZv/wwsCqdxfG0o7qtd3AdUqfR5qxLwaUwbiHaHUHvm2qy1cxkvhO0ArR7k\n7JEkqKI2Jp4AJLpkOZLGe9L2OYaxokdQWxbfgaIIGGg9pvC984n1OmUNV/Qa+Og6\nQjr0IFjcbajJ1agr7u/Lwqq6dxHuX5OhEX8a2O6pJr9IB5SPnluubaRhgWyHHnOp\nxzVHUHafes+tjGlBMMxkC/ExAqWrKl5vd+APlv9xZcuBy9IsnQROUPDSVO8YN5RY\niGA8d2SDBwEnpM4CBrGWsCnvi/G3CqeLRju4Aay55bs/trVpk2OwHLOUmmwnYIiU\nDdzYZwlVAgMBAAECggEAQGhO1wX0vCOeB8p0vUKmIF/jTL3HfrDxI03ssc5mL8ZM\nQsGKpePVfmCsUGnjyS2BsZkdrEk30TbqRsw1vk0qjThfe3ShQrrTsxpgx5IM40r/\np8cLBsTKfCU6wt9NIAM0aPPxf0eIt45h0xLMOgWTOoNeV0mzi/wgq4i6AcYbWSZS\nblHSjdCk5X6r4zCfWXnH5+hfkOqNMDgde2196ekaMZZtOdy0sSGkXFPDZFzLeVGs\ndyTjpTCCM3sdYbpZ9L8Gr9YH76KgceO4IlqTTevoR3/yGGHxmMNuXcRGVkdn9kdS\nPYTFJ3k1oFcJI7dWJdd97DPP8MKbQx9I4WTqAdh4owKBgQDRGqyxO1dMgGQrqLCc\n4n7cZ+JGWQU1gysqYaUUtjZdQ2mnTH3JU2KdZdvPYX0tH87vWFEXhzj5dXKKoTKF\nHm7tpIXJgc2TwC2MJXkMl2ZT3MD5CcitQI+AKmuuEb+17CRv+Ee4jlLb/LSFDhvO\nktkc1AZm+2IDs/jcb0Bwhub0cwKBgQC/pG8T1b68sBOdgHicywDA08EmHO7vSeML\np1EG9DcRXT0D5uTbaG+buAPKQmRuDr4bnC6fT4hFX4VdvUo1PV95lVBTzz5/UKbP\nL1OvGf4jOrkZHw95bv/DHpgcsnnjcELWKqBFujNfrdvHZDTNz9paa2GnRXUvl2US\nN6YySnrhFwKBgHjYVKNcqxggP0PoCqGwWCaitud2/QavFpw4sEHnCEYf9ohkMXHP\nifdy7XTNX51be6lhPgQ99tRcZuTtQhgivXMDmPoa1Sclcm1DHtEDEnU26CNE30AZ\nRpWIbpC72zKVFX3MXA6x2fse8WjP/YwF3AnIEyci8sM3GIS0muYtYH43AoGAVk0t\nfGgwOfatDquRJULB9xQlEg3Lh9TlOxVBBvmpZtdvJ7et7iSMxjpK8qWNZoabFAH0\neOeu/Vazz2/z4B/gQ/d6shNNGLZwODMe42a4LJNAUdDL/ip/YRYA+ENjYonmf124\nyU293uODarp0kQ5+TWO4GUTNLf5mlJqc7F7gEUcCgYBXZmJk8adSbwjcp+kILExx\nHGiDlw73VJ1YGMZtNxzEQu1jGhoup0dj8DNQqGHe/G5nbDhHj9ZOwbfgFKTBRsZp\n2x2oKSV0KIhfXQ7vxx/9Av0sCernTw/pL77eiLp15Mn9ktzBHaqBGbso01SpeVc2\n2Q0L3cTAtFAOHoVYjluCZA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "readingdatafromgcs@kubeflow-test-335211.iam.gserviceaccount.com",
+  "client_id": "105490474326442238139",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/readingdatafromgcs%40kubeflow-test-335211.iam.gserviceaccount.com"
+}
